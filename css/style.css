@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{margin:0;
+padding: 0;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3v;
+
+}
+
+/*Formatos princiaplmente del index*/
+.barraSuperior{
+    background-color: black;
+    text-align:center;
+    align-items: center;
+    padding-top: 10px;
+    color: whitesmoke;
+    height: 10vh;
+    max-width: 100vw;
+    position: sticky;
+    
+}
+.barraSuperior > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.descripcionInicialInicio{
+    
+
+   
+    color: white;
+    padding: 15px;
+    width: 4
+    0vw;
+    height: 150px;
+    overflow: auto;
+    border: 4px solid;
+    border-color: aquamarine;
+    background-color: black;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity:0.5 ;
+}
+
+
+.fondoDePagina{
+    max-width: 100vw;
+    height:100vh;
+    background-image: url("../images/porteño.jpg");
+    background-size:cover;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+    margin: 0px;
+    justify-content: space-between;
+    align-content: flex-start;
+    overflow: auto;
+}
+
+
+/*Estilo de botones en lista*/
+.cajaBotones{
+    max-width: 500px;
+    height: 100px;
+    border: 4px solid;
+    align-items: center;
+    justify-content: center;
+    padding-top:1px;
+    background-color: aliceblue;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    display: flex;
+    overflow: auto;
+    margin-left: 10vw;
+    opacity: 50%;
+    margin-top: 5px;
+    border-radius: 40px;
+}
+.cajaBotones:hover{
+    opacity: 1;
+}
+
+.cuadro{
+    height: 80vh;
+    width: 100vw;
+}
+
+/*Caja video presentacion*/
+.videoInicioClass{
+   border: none;
+   margin-left: 100px;
+   left: 100px;
+   margin-top: 2%;
+}
+
+/*Fin formatos principales del index*/
+/*Formatos grales de Who I Am*/
+.descripcionWhoIAm{
+   
+    left: 200px;
+    justify-content: center;
+    align-items: center;
+    top:100px;
+    color: white;
+    padding: 15px;
+    width: 80vw;
+    height: 50vhpx;
+    overflow:auto;
+    border: 4px solid;
+    border-color: aquamarine;
+    background-color: black;
+    font-size: 3vh;
+    margin-top: 10px;
+    margin-left: 5vw;
+    margin-bottom: 9vh;
+    opacity: 0.8;
+}
+.fotoFondoWho{
+    margin: 0;
+    background-image: url(../images/VOLEY\ \(2\).jpg);
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+}
+/*Fin formatos generales who i am*/
+/*Formatos Achievements & best results*/
+.fotoFondoAchievements{
+  
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/PELOTAS\ VOLEY.jpg);
+    background-size:auto;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+    margin: 0px;
+    justify-content: space-between;
+    align-content: flex-start;
+    overflow: auto;
+}
+/*Fin formatos Achievements & best results*/
+/*Formatos Matches Highlights*/
+.fotoFondoMatches{
+   
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/saque.jpg);
+    background-size:auto;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+    margin: 0px;
+    justify-content: space-between;
+    align-content: flex-start;
+    overflow: auto;
+
+}
+/*Fin formatos Matches Highlights*/
+
+/*Formatos Full Matches */
+.cajaFull{
+    margin-left: 1vw;
+    width: 100vw;
+    flex-flow: flex wrap;
+    flex-direction:row;
+    justify-content:space-between ;
+    position: relative;
+}
+
+.tamañoVideoFull{
+    width: 560px;
+    height: 315px ;
+    opacity: 0.7;
+}
+.tamañoVideoFull:hover{
+    opacity: 1;
+}
+.fotoFondoFullMatches{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/VOLEY\ 3.jpg);
+    background-size:auto;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+    margin: 0px;
+    justify-content: space-between;
+    align-content: flex-start;
+    overflow: auto;
+}
+    
+/*Formatos career*/
+.fotoFondoCareer{
+   
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/papa\ y\ yo.jpg);
+    background-size:auto;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+    margin: 0px;
+    justify-content: space-between;
+    align-content: flex-start;
+    overflow: auto;
+}
+.descripciones{
+   
+        left: 200px;
+        justify-content: center;
+        align-items: center;
+        top:100px;
+        color: white;
+        padding: 15px;
+        width: 80vw;
+        height: 50vhpx;
+        overflow:auto;
+        border: 4px solid;
+        border-color: aquamarine;
+        background-color: black;
+        font-size: 3vh;
+        margin-top: 10px;
+        margin-left: 5vw;
+        margin-bottom: 9vh;
+        opacity: 0.8;
+    
+}
+
+.cajaFull{
+    margin-left: 1vw;
+    width: 100vw;
+    flex-flow: flex wrap;
+    flex-direction:row;
+    justify-content:space-between ;
+    position: relative;
+}
+/*Fin formatos career*/
+
+.cajaHome{width: 30vw;
+    height: 100px;
+    border: 4px solid;
+    align-items: center;
+    justify-content: center;
+    padding-top:1px;
+    background-color: aliceblue;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    display: flex;
+    overflow: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 40px;
+    opacity: 0.5;
+}
+.cajaHome:hover{
+    opacity: 1;
+}
+.estiloFooter{
+    background-color: red;
+    height: 10vh;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0px;
+    padding-left: 10px;
+    margin-bottom: 0%;
+}
+.iAmWorkingOnThat{   position: relative;
+    top: 50px;
+    left: 200px;
+    justify-content: center;
+    align-items: center;
+    top:0px;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    height: 300px;
+    overflow: auto;
+    border: 4px solid;
+    border-color: aquamarine;
+    background-color: black;
+    font-size: 25px;
+    margin-top: 50px;
+
+}
+p{font-family: 'Times New Roman', Times, serif;}
+.tamañoVideoInicio{
+    width: 800px;
+    height: 451px;
+}
+
+/*Etiqueta padre*/
+.containerGrilla{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+.grillaInicio{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "miniDescripcion nav"
+    "videoInicio nav";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 2fr ;
+}
+header{
+    grid-area: header;
+}
+
+section#miniDescripcion{
+    grid-area: miniDescripcion;
+}
+section#videoInicio{
+    grid-area: videoInicio;
+}
+nav{
+    grid-area: nav;
+    
+}
+
+@media screen and (max-width: 420px){
+   
+    .descripcionInicialInicio{
+        max-width: 80vw;
+    }
+    .grillaInicio{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        align-content:stretch;
+    }
+
+.videoInicioClass{
+    margin: 0px;
+}
+.tamañoVideoInicio{
+   max-width: 90vw;
+    height: 30vh;
+}
+.cajaBotones{
+    max-width: 90vw;
+    font-size:28px;
+    margin-left: 0%;
+}
+.fondoDePagina{
+    background-size:contain
+}
+.cuadroWho{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:stretch;
+}
+.cajaFull{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:stretch;
+}
+.tamañoVideoFull{
+    max-width: 90vw;
+    height: 30vh;
+    margin-top: 4px;
+}
+.descripciones{
+   
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:stretch;
+
+
+}
+
+
+}
+    
