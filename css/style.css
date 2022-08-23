@@ -182,6 +182,7 @@ h1{
 }
 .tamañoVideoFull:hover{
     opacity: 1;
+    
 }
 .fotoFondoFullMatches{
     height: 100vh;
@@ -196,14 +197,21 @@ h1{
     justify-content: space-between;
     align-content: flex-start;
     overflow: auto;
+    
 }
     
 /*Formatos career*/
+.fotoConPapa{
+    width: 30vw;
+    height: 100vh;
+    background-image: url(../images/papa\ y\ yo.jpg);
+    margin-left: 35vw;
+}
 .fotoFondoCareer{
    
     height: 100vh;
     width: 100vw;
-    background-image: url(../images/papa\ y\ yo.jpg);
+    background-image: linear-gradient(to top, red,black) ;
     background-size:auto;
     display: flex;
     flex-flow: column nowrap;
