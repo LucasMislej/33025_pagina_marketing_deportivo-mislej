@@ -82,10 +82,16 @@ h1{
     opacity: 50%;
     margin-top: 5px;
     border-radius: 40px;
+
 }
 .cajaBotones:hover{
     opacity: 1;
+    border: 8px solid;
+    animation-name: video_shake;
+    transform: translate(-10px);
+  
 }
+
 
 .cuadro{
     height: 80vh;
@@ -98,6 +104,24 @@ h1{
    margin-left: 100px;
    left: 100px;
    margin-top: 2%;
+   animation-name: animacion;
+   animation-duration: 10s;
+   animation-iteration-count:infinite;
+   animation-timing-function: ease-in;
+   animation-delay: 0s;
+}
+.tamañoVideoInicio{
+    animation-name: video_inicio;
+    animation-duration: 2s;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    width: 800px;
+    height: 451px;
+}
+@keyframes video_inicio{
+    0%{width: 0px;}
+    100%{width: 851px;}
 }
 
 /*Fin formatos principales del index*/
@@ -210,9 +234,8 @@ h1{
 }
 .fotoFondoCareer{
    
-    height: 100vh;
-    width: 100vw;
-    background-image: linear-gradient(to top, red,black) ;
+   
+    background-image: linear-gradient(to bottom, black, red) ;
     background-size:auto;
     display: flex;
     flex-flow: column nowrap;
@@ -303,10 +326,7 @@ h1{
 
 }
 p{font-family: 'Times New Roman', Times, serif;}
-.tamañoVideoInicio{
-    width: 800px;
-    height: 451px;
-}
+
 
 /*Etiqueta padre*/
 .containerGrilla{
@@ -393,7 +413,12 @@ nav{
 
 
 }
-
+.fotoConPapa{
+    width: 400px;
+    height: 600px;
+    margin-left: 0;
+    background-size: cover;
+}
 
 }
     
