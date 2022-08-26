@@ -3,6 +3,7 @@
 *{margin:0;
 padding: 0;
 }
+
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3v;
@@ -254,18 +255,15 @@ h1{
         top:100px;
         color: white;
         padding: 15px;
-        width: 80vw;
-        height: 50vhpx;
         overflow:auto;
         border: 4px solid;
         border-color: aquamarine;
-        background-color: black;
         font-size: 3vh;
         margin-top: 10px;
         margin-left: 5vw;
         margin-bottom: 9vh;
         opacity: 0.8;
-    
+        backdrop-filter: blur(5px);
 }
 
 .cajaFull{
@@ -327,7 +325,9 @@ h1{
 }
 p{font-family: 'Times New Roman', Times, serif;}
 
-
+iframe{
+    margin-left: 50px;
+}
 /*Etiqueta padre*/
 .containerGrilla{
     width: 100%;
@@ -359,6 +359,35 @@ nav{
     grid-area: nav;
     
 }
+main.container-fluid{
+    background-image: url(../images/porteño.jpg);
+    background-size:cover;
+    min-height: 87vh;
+    
+}
+header.color-header{
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+footer.color-footer{
+    background-color: red;
+    height: 7vh;
+}
+
+a.btn-light{
+    opacity: 0.7;
+    margin-top: 15px;
+    width: 15vw;
+    font-size: 25px;
+    
+}
+nav{
+    margin-top: 20vh;
+    margin-left: 15vw;
+}
+ul { list-style: none;}
+
 
 @media screen and (max-width: 420px){
    
@@ -419,6 +448,12 @@ nav{
     margin-left: 0;
     background-size: cover;
 }
-
+a.btn-light{
+    width: 50vw;
+}
+nav{margin-top: 0;}
+header.color-header{height: 70px;}
+iframe{margin-left: 0;}
 }
     
+

@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/style.css" >
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="./css/style.css" />
+
 	<title>Lucas Mislej Volleyball Player</title> 
+
 </head>
-<body class="fondoDePagina">
+<body class="container-fluid">
 	
-	<main class="containerGrilla"><!--Un menu simple de navegacion entre las distintas paginas con fondos de imagenes mias que vayan cambiando-->
+	
 		
-		<div class="grillaInicio">
-			<header class="barraSuperior">
-				<div>
+			<header class="container-fluid text-center color-header ">
+				<div >
 				<h1>
 					Lucas Mislej Volleyball Player
 				</h1>
 				</div>
 			</header>
-			
-			<section id="miniDescripcion" class="descripcionInicialInicio">
-				<p>Hi! My name is Lucas and here's my website where you can know everything about me. Im currently 22 years old, searching for opportunities to improve my Volleyball skills in new chalenges.
+
+			<main class="container-fluid"><!--Un menu simple de navegacion entre las distintas paginas con fondos de imagenes mias que vayan cambiando-->
+				
+			<div class="row">
+			<div  class="col">
+				<div class="container blur-back">
+				<p class="descripciones">Hi! My name is Lucas and here's my website where you can know everything about me. Im currently 22 years old, searching for opportunities to improve my Volleyball skills in new chalenges.
 				</p>
-			</section>
+				</div>
 			
-				<section id="videoInicio" class="videoInicioClass">
+			
+				
 				<!--este en realidad va a ser otro video pero lo tengo que armar, el actual iria a match highligths, y tanto este como esos los tengo que armar y son horas y horas de mirar los videos y recortarlos por eso se me esta complicando para hacerlos-->
 				<iframe class="tamañoVideoInicio" src="https://www.youtube.com/embed/O8bAQ5mnY10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-			</section>
+			</div>
 			
+			<div class="col">
 			<nav>
 				<td>
 					<!--se que la sintaxis aca no esta bien poner en cada li una class, pero no lograba que funcione desde css con: main div nav td ul li-->
 					<ul>
-					<li class="cajaBotones"><a href="#footer" >CONTACT ME</a></li>
-					<li class="cajaBotones"><a  href="pages/who_am_i.html">Who am I?</a></li>
-					<li class="cajaBotones"><a  href="pages/achievements_results.html">Achievements & Best Results</a></li>
-					<li class="cajaBotones"><a  href="pages/matches_highligts.html">Matches Highlights</a></li>
-					<li class="cajaBotones"><a  href="pages/full_matches.html">Full Matches</a></li>
-					<li class="cajaBotones"><a  href="pages/career.html" >Career</a></li>
+					<li><a  class="btn btn-light"href="#footer" >CONTACT ME</a></li>
+					<li><a  class="btn btn-light" href="pages/who_am_i.html">Who am I?</a></li>
+					<li><a  class="btn btn-light" href="pages/achievements_results.html">Achievements & Best Results</a></li>
+					<li><a  class="btn btn-light" href="pages/matches_highligts.html">Matches Highlights</a></li>
+					<li><a  class="btn btn-light" href="pages/full_matches.html">Full Matches</a></li>
+					<li><a  class="btn btn-light" href="pages/career.html" >Career</a></li>
 					</ul>
 				</td>
 
 			</nav>
+			</div>
+			</div>
 			
 
-</div>
 </main>
-<footer id="footer">
-	<table class="estiloFooter">
-	<tr>
-		<td>
-			<a>mail@mail.com</a>
-
-		</td>
-		<td>
-			<a href="https://instagram.com/username">Instagram</a>
-		</td>
-	</tr>
-    </table>
+<footer id="footer" class="container-fluid color-footer text-center">
+	
+	<div class="row">
+		
+		<div class="col">
+		<a>mail@mail.com</a>
+		</div>
+		<div class="col">
+		<a href="https://instagram.com/username">Instagram</a>
+		</div>
+	</div>
+   
 </footer>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
