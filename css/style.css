@@ -179,9 +179,8 @@ h1{
     width: 100vw;
     background-image: url(../images/saque.jpg);
     background-size:auto;
-    display: flex;
-    flex-flow: column nowrap;
-    flex-direction: column;
+   
+   
     font-family: "Oswald", sans-serif;
     margin: 0px;
     justify-content: space-between;
@@ -200,7 +199,9 @@ h1{
     justify-content:space-between ;
     position: relative;
 }
-
+div.card-body{
+    background-color: aliceblue;
+}
 .tamañoVideoFull{
     width: 560px;
     height: 315px ;
