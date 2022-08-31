@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/style.css" >
     <title>Lucas Mislej - Matches highligts</title>
 </head>
 <body class="fotoFondoMatches">
     <!--recopilatorio de mis mejores momentos editados por recopilaciones-->
+    <header class="container-fluid text-center color-header ">
     <h1 class="barraSuperior">
         Matches highligts
     </h1>
+    </header>
     <main >
     <section>
         <div>
@@ -22,18 +26,43 @@
     <div class="descripciones"><a>Currently unavaiable, I´m working on getting every data to complete these, plese come back later</a></div>
     </div>
     </main>
-    <footer>
-        <table class="estiloFooter">
-            <tr>
-                <td>
-                    <a>mail@mail.com</a>
+    <footer id="footer" class="container-fluid text-center estiloFooter">
+	
+        <div class="row align-items-center">
+            <div class="col-sm-16 col-lg-4">
+                <a>Leave me a messege to contact you</a>
+                <form>
+                    <div class="mb-3">
+                        <form>
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="" value="" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                              <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                              <textarea class="form-control" name="" rows="3" placeholder="Message"></textarea>
+                            </div>
+                            <button class="btn btn-default" type="submit" name="button">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+                            </button>
+                          </form>
+                    </div>
                     
-                </td>
-                <td>
-                    <a href="https://instagram.com/username">Instagram</a>
-                </td>
-            </tr>
-        </table>
+            </div>
+            <div class="col">
+            <img class="mail" src="../images/maillogo.png" alt="">
+            <a>mail@mail.com</a>
+            </div>
+            <div class="col">
+            <img class="ig" src="../images/ig.png" alt="">
+            <a href="https://instagram.com/username">Instagram</a>
+            </div>
+        </div>
+       
     </footer>
     </body>
     </html>

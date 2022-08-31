@@ -10,120 +10,29 @@ h1{
 
 }
 
-
-.fondoDePagina{
-    max-width: 100vw;
-    height:100vh;
-    background-image: url("../images/porteño.jpg");
-    background-size:cover;
-    display: flex;
-    flex-flow: column nowrap;
-    flex-direction: column;
-    font-family: "Oswald", sans-serif;
-    margin: 0px;
-    justify-content: space-between;
-    align-content: flex-start;
-    overflow: auto;
+.sinPadding{
+    padding: 0;
 }
+
 
 /*Formatos princiaplmente del index*/
-.barraSuperior{
-    background-color: black;
-    text-align:center;
-    align-items: center;
-    padding-top: 10px;
-    color: whitesmoke;
-    height: 10vh;
-    max-width: 100vw;
-    position: sticky;
+.inicio-imagen{
+    background-image: url(../images/porteño.jpg);
+    background-size:cover;
+    min-height: 95vh;
     
-}
-.barraSuperior > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.descripcionInicialInicio{
-    
-
-   
-    color: white;
-    padding: 15px;
-    width: 4
-    0vw;
-    height: 150px;
-    overflow: auto;
-    border: 4px solid;
-    border-color: aquamarine;
-    background-color: black;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-    opacity:0.5 ;
-}
-
-
-
-/*Estilo de botones en lista*/
-.cajaBotones{
-    max-width: 500px;
-    height: 100px;
-    border: 4px solid;
-    align-items: center;
-    justify-content: center;
-    padding-top:1px;
-    background-color: aliceblue;
-    font-family: "Oswald", sans-serif;
-    font-size: 35px;
-    display: flex;
-    overflow: auto;
-    margin-left: 10vw;
-    opacity: 50%;
-    margin-top: 5px;
-    border-radius: 40px;
-
-}
-.cajaBotones:hover{
-    opacity: 1;
-    border: 8px solid;
-    animation-name: video_shake;
-    transform: translate(-10px);
-  
-}
-
-
-.cuadro{
-    height: 80vh;
-    width: 100vw;
 }
 
 /*Caja video presentacion*/
-.videoInicioClass{
-   border: none;
-   margin-left: 100px;
-   left: 100px;
-   margin-top: 2%;
-   animation-name: animacion;
-   animation-duration: 10s;
-   animation-iteration-count:infinite;
-   animation-timing-function: ease-in;
-   animation-delay: 0s;
-}
+
+
 .tamañoVideoInicio{
-    animation-name: video_inicio;
-    animation-duration: 2s;
-    animation-iteration-count:1;
-    animation-timing-function: ease-in;
-    animation-delay: 0s;
-    width: 800px;
-    height: 451px;
+  
+    width: 720px;
+    height: 430px;
+    border-style: dotted;
 }
-@keyframes video_inicio{
-    0%{width: 0px;}
-    100%{width: 851px;}
-}
+
 
 /*Fin formatos principales del index*/
 /*Formatos grales de Who I Am*/
@@ -152,7 +61,7 @@ h1{
     background-image: url(../images/VOLEY\ \(2\).jpg);
     background-position: center;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 /*Fin formatos generales who i am*/
 /*Formatos Achievements & best results*/
@@ -202,8 +111,10 @@ h1{
 div.card-body{
     background-color: aliceblue;
 }
+
+
 .tamañoVideoFull{
-    width: 560px;
+    width: 580px;
     height: 315px ;
     opacity: 0.7;
 }
@@ -237,7 +148,7 @@ div.card-body{
 .fotoFondoCareer{
    
    
-    background-image: linear-gradient(to bottom, black, red) ;
+    background-image: linear-gradient(to bottom, black, rgb(248, 104, 104)) ;
     background-size:auto;
     display: flex;
     flex-flow: column nowrap;
@@ -298,8 +209,8 @@ div.card-body{
     opacity: 1;
 }
 .estiloFooter{
-    background-color: red;
-    height: 10vh;
+    background-color: rgb(248, 104, 104);
+    height: 100%;
     width: 100%;
     font-size: 20px;
     margin-left: 0px;
@@ -337,42 +248,20 @@ iframe{
     justify-content: center;
     align-content: flex-start;
 }
-.grillaInicio{
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "miniDescripcion nav"
-    "videoInicio nav";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 2fr ;
+.mail{
+    height: 7em;
 }
-header{
-    grid-area: header;
+.ig{
+    height: 4em;
 }
 
-section#miniDescripcion{
-    grid-area: miniDescripcion;
-}
-section#videoInicio{
-    grid-area: videoInicio;
-}
-nav{
-    grid-area: nav;
-    
-}
-main.container-fluid{
-    background-image: url(../images/porteño.jpg);
-    background-size:cover;
-    min-height: 87vh;
-    
-}
 header.color-header{
     background-color: black;
     color: white;
     height: 60px;
 }
 footer.color-footer{
-    background-color: red;
+    background-color: rgba(240, 71, 71, 0.87);
     height: 7vh;
 }
 
