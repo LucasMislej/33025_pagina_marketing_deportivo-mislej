@@ -1,0 +1,23 @@
+{
+  "name": "33025_pagina_marketing_deportivo-mislej",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "scss":"node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasMislej/33025_pagina_marketing_deportivo-mislej.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasMislej/33025_pagina_marketing_deportivo-mislej/issues"
+  },
+  "homepage": "https://github.com/LucasMislej/33025_pagina_marketing_deportivo-mislej#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
