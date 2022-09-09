@@ -14,4 +14,53 @@ footer{
         height: 4em;
     }
 
+    .iconos{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .fab{
+            padding: 1rem;
+        }
+    }
+
+};
+/*map*/
+$redes:(
+    instagram: $secondaryColor,
+    twitter: rgb(0, 99, 230),
+    whatsapp: green,
+    
+);
+@each $redsocial, $colordered in $redes {
+    .fa-#{$redsocial}{
+        background-color: $colordered;
+        
+    }
+    
+};
+
+/*Extend*/
+.fa-twitter{
+    
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    &:hover{
+        background-color: aqua;
+    }
+}
+.fa-whatsapp{
+    @extend .fa-twitter
+};
+/*mixin*/
+
+@mixin tamanosLetra($size) {
+   font-size:$size ;
+    
+}
+
+.estiloFooter{
+    div>a{
+        @include tamanosLetra(40px);
+}
 }

@@ -89,6 +89,42 @@ footer .mail {
 footer .ig {
   height: 4em;
 }
+footer .iconos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer .iconos .fab {
+  padding: 1rem;
+}
+
+/*map*/
+.fa-instagram {
+  background-color: rgb(248, 104, 104);
+}
+
+.fa-twitter, .fa-whatsapp {
+  background-color: rgb(0, 99, 230);
+}
+
+.fa-whatsapp {
+  background-color: green;
+}
+
+/*Extend*/
+.fa-twitter, .fa-whatsapp {
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+}
+.fa-twitter:hover, .fa-whatsapp:hover {
+  background-color: aqua;
+}
+
+/*mixin*/
+.estiloFooter div > a {
+  font-size: 40px;
+}
 
 .sinPadding {
   padding: 0;
