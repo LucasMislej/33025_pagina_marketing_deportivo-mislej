@@ -26,6 +26,18 @@ header h1 {
   font-size: 45px;
 }
 
+@media screen and (max-width: 420px) {
+  header {
+    background-color: black;
+    color: white;
+    height: 60px;
+  }
+  header h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: white;
+    font-size: 30px;
+  }
+}
 body .inicio-imagen {
   background-image: url(../images/porteño.jpg);
   background-size: cover;
@@ -74,6 +86,54 @@ body main div div nav ul li a {
   height: 70px;
 }
 
+@media screen and (max-width: 420px) {
+  body .inicio-imagen {
+    background-image: url(../images/porteño.jpg);
+    background-size: cover;
+    min-height: 95vh;
+  }
+  body main div div div .descripciones {
+    left: 200px;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    color: white;
+    padding: 15px;
+    overflow: auto;
+    border: 4px solid;
+    border-color: aquamarine;
+    font-size: 3vh;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 9vh;
+    opacity: 0.8;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  body main div div div .tamañoVideoInicio {
+    width: 100%;
+    height: 300px;
+    padding-left: 10px;
+  }
+  body main div div nav {
+    margin-top: 20vh;
+    margin-left: 15vw;
+    color: red;
+  }
+  body main div div nav ul {
+    list-style: none;
+  }
+  body main div div nav ul li .letras {
+    font-size: 30px;
+    color: rgb(248, 104, 104);
+  }
+  body main div div nav ul li a {
+    opacity: 0.5;
+    margin-top: 20px;
+    width: 500px;
+    height: 70px;
+  }
+}
 footer {
   background-color: rgb(248, 104, 104);
   height: 100%;
@@ -200,7 +260,7 @@ body .fotoFondoWho section .descripcionWhoIAm {
 .fotoFondoAchievements .cajaHome:hover {
   opacity: 1;
 }
-.fotoFondoAchievements .descripciones {
+.fotoFondoAchievements .descripcionesAch {
   left: 200px;
   justify-content: center;
   align-items: center;
@@ -215,8 +275,12 @@ body .fotoFondoWho section .descripcionWhoIAm {
   margin-left: 20px;
   margin-bottom: 9vh;
   opacity: 0.8;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  color: rgb(253, 253, 253);
+}
+.fotoFondoAchievements .descripcionesAch ol {
+  list-style: none;
 }
 
 .fotoFondoMatches {
@@ -340,7 +404,7 @@ body .cajaHome {
 body .cajaHome:hover {
   opacity: 1;
 }
-body .descripciones {
+body .descripcionesCareer {
   width: 55%;
   left: 20px;
   justify-content: center;
@@ -359,7 +423,7 @@ body .descripciones {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
 }
-body .descripciones ul {
+body .descripcionesCareer ul {
   list-style: none;
 }
 
@@ -371,7 +435,9 @@ body .descripciones ul {
   body .fotoConPapa {
     width: 100%;
     height: 100vh;
+    background-size: cover;
     background-image: url(../images/papa_y_yo_chapa_2.jpg);
+    display: fle;
   }
   body .cajaHome {
     width: 30vw;
@@ -394,8 +460,8 @@ body .descripciones ul {
   body .cajaHome:hover {
     opacity: 1;
   }
-  body .descripciones {
-    width: 100%;
+  body .descripcionesCareer {
+    width: 90%;
     justify-content: center;
     align-items: center;
     top: 100px;
@@ -403,14 +469,14 @@ body .descripciones ul {
     overflow: auto;
     border: 4px solid;
     border-color: aquamarine;
-    font-size: 3vh;
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 9vh;
     opacity: 0.8;
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
   }
-  body .descripciones ul {
+  body .descripcionesCareer ul {
     list-style: none;
   }
 }
@@ -425,12 +491,6 @@ body .descripciones ul {
   }
   .descripcionInicialInicio {
     max-width: 80vw;
-  }
-  .grillaInicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: stretch;
   }
   .videoInicioClass {
     margin: 0px;
@@ -469,12 +529,6 @@ body .descripciones ul {
     flex-direction: column;
     align-items: center;
     align-content: stretch;
-  }
-  .fotoConPapa {
-    width: 400px;
-    height: 600px;
-    margin-left: 0;
-    background-size: cover;
   }
   a.btn-light {
     width: 50vw;

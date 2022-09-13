@@ -11,3 +11,18 @@ header{
 
     }
 }
+@media screen and (max-width: 420px){
+    header{
+        background-color: black;
+        color: white;
+        height: 60px;
+    
+        
+         h1{
+        font-family: $fontA;
+        color: $fontColorA;
+        font-size: 30px;
+    
+        }
+}
+}
