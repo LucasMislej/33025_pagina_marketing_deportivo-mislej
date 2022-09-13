@@ -36,26 +36,7 @@ h1{
 
 /*Fin formatos principales del index*/
 /*Formatos grales de Who I Am*/
-.descripcionWhoIAm{
-   
-    left: 200px;
-    justify-content: center;
-    align-items: center;
-    top:100px;
-    color: white;
-    padding: 15px;
-    width: 80vw;
-    height: 50vhpx;
-    overflow:auto;
-    border: 4px solid;
-    border-color: aquamarine;
-    background-color: black;
-    font-size: 3vh;
-    margin-top: 10px;
-    margin-left: 5vw;
-    margin-bottom: 9vh;
-    opacity: 0.8;
-}
+
 .fotoFondoWho{
     margin: 0;
     background-image: url(../images/VOLEY\ \(2\).jpg);
@@ -65,38 +46,10 @@ h1{
 }
 /*Fin formatos generales who i am*/
 /*Formatos Achievements & best results*/
-.fotoFondoAchievements{
-  
-    height: 100vh;
-    width: 100vw;
-    background-image: url(../images/PELOTAS\ VOLEY.jpg);
-    background-size:auto;
-    display: flex;
-    flex-flow: column nowrap;
-    flex-direction: column;
-    font-family: "Oswald", sans-serif;
-    margin: 0px;
-    justify-content: space-between;
-    align-content: flex-start;
-    overflow: auto;
-}
+
 /*Fin formatos Achievements & best results*/
 /*Formatos Matches Highlights*/
-.fotoFondoMatches{
-   
-    height: 100vh;
-    width: 100vw;
-    background-image: url(../images/saque.jpg);
-    background-size:auto;
-   
-   
-    font-family: "Oswald", sans-serif;
-    margin: 0px;
-    justify-content: space-between;
-    align-content: flex-start;
-    overflow: auto;
 
-}
 /*Fin formatos Matches Highlights*/
 
 /*Formatos Full Matches */
@@ -113,31 +66,8 @@ div.card-body{
 }
 
 
-.tamañoVideoFull{
-    width: 580px;
-    height: 315px ;
-    opacity: 0.7;
-}
-.tamañoVideoFull:hover{
-    opacity: 1;
-    
-}
-.fotoFondoFullMatches{
-    height: 100vh;
-    width: 100vw;
-    background-image: url(../images/VOLEY\ 3.jpg);
-    background-size:auto;
-    display: flex;
-    flex-flow: column nowrap;
-    flex-direction: column;
-    font-family: "Oswald", sans-serif;
-    margin: 0px;
-    justify-content: space-between;
-    align-content: flex-start;
-    overflow: auto;
-    
-}
-    
+
+
 /*Formatos career*/
 .fotoConPapa{
     width: 30vw;
@@ -159,24 +89,7 @@ div.card-body{
     align-content: flex-start;
     overflow: auto;
 }
-.descripciones{
-   
-        left: 200px;
-        justify-content: center;
-        align-items: center;
-        top:100px;
-        color: white;
-        padding: 15px;
-        overflow:auto;
-        border: 4px solid;
-        border-color: aquamarine;
-        font-size: 3vh;
-        margin-top: 10px;
-        margin-left: 20px;  
-        margin-bottom: 9vh;
-        opacity: 0.8;
-        backdrop-filter: blur(5px);
-}
+
 
 .cajaFull{
     margin-left: 1vw;
@@ -188,26 +101,7 @@ div.card-body{
 }
 /*Fin formatos career*/
 
-.cajaHome{width: 30vw;
-    height: 100px;
-    border: 4px solid;
-    align-items: center;
-    justify-content: center;
-    padding-top:1px;
-    background-color: aliceblue;
-    font-family: "Oswald", sans-serif;
-    font-size: 32px;
-    display: flex;
-    overflow: auto;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 40px;
-    opacity: 0.5;
-}
-.cajaHome:hover{
-    opacity: 1;
-}
+
 .estiloFooter{
     background-color: rgb(248, 104, 104);
     height: 100%;

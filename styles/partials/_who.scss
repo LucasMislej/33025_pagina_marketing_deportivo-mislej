@@ -1,0 +1,56 @@
+body{
+    .fotoFondoWho{
+        margin: 0;
+        background-image: url(../images/VOLEY\ \(2\).jpg);
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+    
+    
+        
+
+        section{
+            .cajaHome{width: 30vw;
+                height: 100px;
+                border: 4px solid;
+                align-items: center;
+                justify-content: center;
+                padding-top:1px;
+                background-color: aliceblue;
+                font-family: "Oswald", sans-serif;
+                font-size: 32px;
+                display: flex;
+                overflow: auto;
+                margin-left: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                border-radius: 40px;
+                opacity: 0.5;
+            }
+            .cajaHome:hover{
+                opacity: 1;
+            }
+                .descripcionWhoIAm{
+   
+                left: 200px;
+                justify-content: center;
+                align-items: center;
+                top:100px;
+                color: white;
+                padding: 15px;
+                width: 80vw;
+                height: 50vhpx;
+                overflow:auto;
+                border: 4px solid;
+                border-color: aquamarine;
+                background-color: black;
+                font-size: 3vh;
+                margin-top: 10px;
+                margin-left: 5vw;
+                margin-bottom: 9vh;
+                opacity: 0.8;
+                }  
+                 
+        }
+    }
+}
