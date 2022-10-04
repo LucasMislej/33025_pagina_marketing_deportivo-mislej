@@ -191,9 +191,10 @@ body .fotoFondoWho {
   background-image: url(../images/VOLEY\ \(2\).jpg);
   background-position: center;
   width: 100%;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
-body .fotoFondoWho section .cajaHome {
+body .fotoFondoWho .cajaHome {
   width: 30vw;
   height: 100px;
   border: 4px solid;
@@ -211,10 +212,10 @@ body .fotoFondoWho section .cajaHome {
   border-radius: 40px;
   opacity: 0.5;
 }
-body .fotoFondoWho section .cajaHome:hover {
+body .fotoFondoWho .cajaHome:hover {
   opacity: 1;
 }
-body .fotoFondoWho section .descripcionWhoIAm {
+body .fotoFondoWho .descripcionWhoIAm {
   left: 200px;
   justify-content: center;
   align-items: center;
@@ -234,13 +235,41 @@ body .fotoFondoWho section .descripcionWhoIAm {
   opacity: 0.8;
 }
 
+.slider-area {
+  background: #262626;
+  padding: 50px;
+  position: relative;
+  margin: 120px 0;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: transparent;
+}
+
+.carousel-caption {
+  position: static;
+  padding-bottom: 15px;
+  padding-top: 0;
+}
+
+.carousel-caption p {
+  font-size: 45px;
+}
+
+@media screen and (max-width: 420px) {
+  .carousel-caption p {
+    font-size: 25px;
+  }
+}
 .fotoFondoAchievements {
-  height: 100vh;
   width: 100%;
-  background-image: url(../images/PELOTAS\ VOLEY.jpg);
+  height: auto;
+  min-height: 100vh;
+  background-color: white;
 }
 .fotoFondoAchievements .cajaHome {
   width: 30vw;
+  position: relative;
   height: 100px;
   border: 4px solid;
   align-items: center;
@@ -281,6 +310,19 @@ body .fotoFondoWho section .descripcionWhoIAm {
 }
 .fotoFondoAchievements .descripcionesAch ol {
   list-style: none;
+}
+
+img {
+  height: 65vh;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 .fotoFondoMatches {
@@ -349,11 +391,12 @@ body .fotoFondoWho section .descripcionWhoIAm {
   overflow: auto;
 }
 .fotoFondoFullMatches main .tamañoVideoFull {
-  width: 580px;
+  width: 100%;
   height: 315px;
   opacity: 0.7;
+  min-width: 400px;
 }
-.fotoFondoFullMatches main .tamañoVideoFull:hover {
+.fotoFondoFullMatches main .tamanoVideoFull:hover {
   opacity: 1;
 }
 .fotoFondoFullMatches main .cajaHome {
@@ -434,13 +477,14 @@ body .descripcionesCareer ul {
   }
   body .fotoConPapa {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     background-size: cover;
     background-image: url(../images/papa_y_yo_chapa_2.jpg);
-    display: fle;
+    background-position: center;
   }
   body .cajaHome {
-    width: 30vw;
+    width: 100px;
     height: 100px;
     border: 4px solid;
     align-items: center;
@@ -448,7 +492,7 @@ body .descripcionesCareer ul {
     padding-top: 1px;
     background-color: aliceblue;
     font-family: "Oswald", sans-serif;
-    font-size: 32px;
+    font-size: 20px;
     display: flex;
     overflow: auto;
     margin-left: 5px;

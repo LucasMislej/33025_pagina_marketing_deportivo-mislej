@@ -4,12 +4,11 @@ body{
         background-image: url(../images/VOLEY\ \(2\).jpg);
         background-position: center;
         width: 100%;
-        height: 100vh;
-    
-    
+        height: auto;
+        min-height: 100vh;
         
 
-        section{
+        
             .cajaHome{width: 30vw;
                 height: 100px;
                 border: 4px solid;
@@ -51,6 +50,31 @@ body{
                 opacity: 0.8;
                 }  
                  
-        }
+        
     }
 }
+
+.slider-area{
+    background: #262626;
+    padding: 50px;
+    position: relative;
+    margin: 120px 0;}
+
+.carousel-control.left,.carousel-control.right{
+    background: transparent;
+}
+
+
+.carousel-caption{
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+.carousel-caption p{
+    font-size: 45px;
+}
+
+@media screen and (max-width: 420px){
+    .carousel-caption p{font-size: 25px;}
+}
+

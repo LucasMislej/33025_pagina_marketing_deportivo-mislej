@@ -1,12 +1,13 @@
  
     .fotoFondoAchievements{
-  
-        height: 100vh;
         width: 100%;
-        background-image: url(../images/PELOTAS\ VOLEY.jpg);
+        height: auto;
+        min-height: 100vh;
+        background-color: white;
 
 
         .cajaHome{width: 30vw;
+            position:relative;
             height: 100px;
             border: 4px solid;
             align-items: center;
@@ -47,7 +48,14 @@
             
             ol{list-style: none;}
     }
-    
-    }
+}
 
- 
+img{height: 65vh;}
+.carousel-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
